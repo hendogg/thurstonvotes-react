@@ -1,0 +1,255 @@
+// npm install --save react-navigation
+
+import React, { Component } from 'react';
+import { 
+  StyleSheet,
+  Text,
+  Button,
+  View,
+  Image,
+  Dimensions,
+  WebView,
+  Navigator,
+  Linking,
+  TouchableOpacity,
+} from 'react-native';
+import { StackNavigator } from 'react-navigation';
+import Home from './Home'
+
+// Get the width of the screen, use it for width and height to make a square
+var { width} = Dimensions.get('window');
+var box_count = 3;
+var box_width = width / box_count - 30;
+
+// Icon images 
+const returnDistrict = ('../imgs/returnDistrict.png');
+const myVote = require('../imgs/myVote.png');
+const results = require('../imgs/results.png');
+const currentElection = require('../imgs/current-election.png');
+const needBallot = require('../imgs/needBallot.png');
+const electionDates = require('../imgs/electionDates.png');
+const distElect = require('../imgs/distElect.png');
+const maps = require('../imgs/maps.png');
+const cspan = require('../imgs/cspan.png');
+const rockTheVote = require('../imgs/rockTheVote.png');
+const military = require('../imgs/military.png');
+const accessible = require('../imgs/accessible.png');
+const ballotReceived = require('../imgs/ballotReceived.png');
+
+// const rockTheVote = require('../imgs/rockTheVote.png');
+// const rockTheVote = require('../imgs/rockTheVote.png');
+// const rockTheVote = require('../imgs/rockTheVote.png');
+
+
+
+// links as variabe for clarity
+const eReturnDistrict = 'http://www.co.thurston.wa.us/auditor/Elections/redirects/br-redirect.htm'
+const eMyVote = 'https://wei.sos.wa.gov/agency/osos/en/voters/Pages/register_to_vote.aspx'
+const eResults = 'http://www.co.thurston.wa.us/auditor/Elections/history/archive.htm'
+// create a page to display all the other link and logos
+const eCurrentElection = 'http://www.co.thurston.wa.us/auditor/Elections/electns.htm'
+// This link is for map view. I'll work on it later
+const eNeedBallot= 'http://www.co.thurston.wa.us/auditor/elections/voter_reg/ballot.htm'
+const eElectionDates = 'http://www.co.thurston.wa.us/auditor/Elections/election_dates.htm'
+const eDistElect = 'http://www.co.thurston.wa.us/electiondatalookup/default.aspx'
+const eMaps = 'http://www.co.thurston.wa.us/auditor/Elections/precinct_maps/maps.htm'
+const eCspan = 'http://www.c-span.org/series/?campaign2016&nav=candidates'
+const eRockTheVote = 'http://www.rockthevote.com/get-informed/elections/'
+
+const eMilitary = 'https://thurstoncounty.everyonecounts.com/page/557/1075'
+const eAccessible = 'http://www.co.thurston.wa.us/auditor/Elections/VAAC/accessible_current_election.htm'
+const eBallotReceived = 'https://weiapplets.sos.wa.gov/MyVote/#/login'
+// to display pdf, this bypass security set up of iOS
+const gDoc = 'http://docs.google.com/gview?embedded=true&url='
+
+
+// Tabbar icons
+const site = require('../imgs/social/tc.png');
+const face = require('../imgs/social/facebook.png');
+const tweet = require('../imgs/social/twitter.png');
+const insta = require('../imgs/social/instagram.png');
+const utube = require('../imgs/social/youtube.png');
+
+// TabBar URLs
+const eSite = 'http://www.co.thurston.wa.us/auditor/'
+const eFace = 'https://www.facebook.com/Thurston-County-Auditors-Office-328306377190679/'
+const eTweet = 'https://twitter.com/TCAuditor'
+const eInsta = 'https://www.instagram.com/thurstonauditor/'
+const eUtube = 'https://www.youtube.com/channel/UCxORZbqlmF1kADpJAu9EIOg'
+
+
+
+class Social extends Component {
+  // Create the state
+  state = {
+    links: [
+      {title:'Votes', url: eFace, img: face, title: 'Facebook' },
+      {title:'Votes', url: eSite, img: site, title: 'Visit Our Website!' },
+      {title:'Votes', url: eInsta, img: insta, title: 'Instagram' },
+      
+      
+    ],
+
+     links1: [
+
+       {title:'Votes', url: eTweet , img: tweet, title: 'Twitter'  },
+       {title:'Votes', url: eUtube , img: utube, title: 'Youtube'  },
+
+      
+    ],
+  };
+
+// function to be called later
+  onPressButton(url) {
+    // Let
+    const urls = Linking.openURL(url) 
+    // onPressButton navigate to the url and push it to the view
+    this.refs.navigator.push({ urls }); 
+  }
+
+
+// function to be called later
+// EX5 arrow anonymous function assign it to renderButton variable
+  renderButton = (btn, index) => {
+    return (   
+      <TouchableOpacity
+        // each item in the object from the state has an 'index'
+        key={index}
+        // btn.url: just get the url from the state
+        // btn.title: just get the title from the state
+        onPress={() => this.onPressButton(btn.url)}
+        style={styles.item}>
+        <Image source={btn.img} style={styles.image}></Image>
+        <Text style={styles.text}>{btn.title}</Text>
+      </TouchableOpacity>
+    );
+  }
+
+
+// on website
+// style={{marginTop: 20}}
+// function to be called later
+  renderScene = (route, navigator) => {
+    if (route.url) {
+      return (
+        <Home url={route.url} navigator={navigator} />
+      );
+    }
+
+
+// the main view display
+    return (
+      <View style={styles.box}>
+          
+      		
+      		<View style={styles.box2}>
+      			<Image source={require('../imgs/bg/header-home-crop.png')}
+        			   style={styles.cover} />
+      		</View> 
+      		<View style={styles.box3}>         
+         		<View style={[styles.container, {flexWrap:'wrap'}]}>  
+          			{this.state.links.map(this.renderButton)}
+        		</View> 
+      		</View>
+      		<View style={styles.box3}>         
+         		<View style={[styles.container, {flexWrap:'wrap'}]}>  
+          			{this.state.links1.map(this.renderButton)}
+        		</View> 
+      		</View>
+                
+      		
+
+      </View>
+    );
+  }
+
+
+// the render method of the class component
+  render() {
+    return (
+      <Navigator
+        ref="navigator"
+        renderScene={this.renderScene}
+        initialRoute={{}}
+        configureScene={(route) => (
+          Navigator.SceneConfigs.FloatFromBottom
+        )}
+      />
+    );
+  }
+}
+
+
+const styles = StyleSheet.create (
+{
+  container: {
+    padding: 15,
+    flexDirection:'row',
+    justifyContent: 'space-between'
+  },
+  item:
+  { width: box_width, 
+    height: box_width, 
+    marginBottom: 35, 
+    marginTop: 10, 
+  },
+  text: {
+    color: 'black',
+    textAlign: 'center',
+    paddingBottom: 15,
+
+  },
+  image: {
+    width: box_width , 
+    height: box_width ,
+  },
+    box: {
+      flex: 1,
+      alignSelf: 'auto',
+  },
+  box1: 
+    {
+      flex: 2,
+      backgroundColor: 'black',
+  },
+    box2: 
+    {
+      flex: 10,
+      flexDirection: "row",
+     // alignItems: "stretch",
+  },
+    cover: 
+    {
+      flex: 1,
+      width: null,
+      height: null,
+      resizeMode: 'stretch'
+  },
+    box3: {
+      width: width,
+      backgroundColor: '#FFFFFF',
+      height: width + 50,
+      // paddingTop: 10,
+  },
+  tabIcon: {
+    width: 20,
+    height: 20,
+  },
+});
+
+// newly added for tabbar navigartions
+Social.navigationOptions = {
+  tabBar: {
+      icon: () => (
+        <Image
+          source={require('../imgs/social/tc.png')}
+          style={[styles.tabIcon, {tintColor: 'midnightblue'}]}
+        />
+  
+    )
+  }
+};
+
+export default Social;
+
+

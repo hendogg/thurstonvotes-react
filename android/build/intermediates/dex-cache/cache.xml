@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_77b443237dd307a09c78d0d95c6f3a9187b05ece.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_394a6dc7d4081beca0d4184ff4668b6b31c456fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_81fcc37fd74dfdf85ebb5f9412cee490fddba464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_e99aad71debbe2d5cf91ceae9c829791e9fb9845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_ea5eb537e5d3bb4566405c5b16ca3f96d989c5ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c6c98bd37c99a7cc650a8d66b16e5bb61edda432.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_67fe3bdcddb0ab3235643859a0a9841e1d121f3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_a5d3c71e25c13afaa55a7aa3e7b5c15e78ec51d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_86e92fb509bdd6c663fbc5ea01e6c710b18d5a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_7a09df9b6654d2045aa30e9b89aca359d347cec5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_38b2e5a213d7a85cf194ec20da35b7b92c7dbefa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_92dfa0c066bdb407c99ba08197e39857baad5323.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b49a04a3016689b372ecbb77f0c33e486e768cca">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.41.2_32f67e39fb78918fd87f6d1c677e6d22ce3f4ebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_f99be95611caec11419be4e61dae359fec6b365e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9e6038f87012e66c4cb8ca43c869d563f1672cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_12bee5e6a45f29424a72bb778e26a2e18527d2ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_50fd462b6fd3724bcbd1d2123a58f561e342c9cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_024255d51eb54c4ff0606a885ead263d632e87d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_6654927372daa505c21ac58134b94d39dd331267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_28e7cc53a44efaf3c4fee60f3d43557ab34cd94e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_7ee3b2556ddbd54af7d4bb8b7d3be85a504330b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_e125d6c522caa2fd1fcdf8807576ad8dcbc05d9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e98f14e1ad5e4c5f0fa0bda2138d7d4eae57c97f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_5a40fb1615d2c022ab795eab9a95c1c84ef3395f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_f01dfe0c435c88ee4bf9b18d3a9951e3ca38459b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_351dbe292438e861ba68c30e6f3d7d20ab07b444.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_810069aa34c3d385608d6bd2b0320a0fedda496c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/voting/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bae0199db7ba793462e83c06ab6df17ac4a3425f">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/voting-react-native-vector-icons-unspecified_891022471101d4f494451624a2854978916a18b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_2b744e949cbddf70a372520d75808e6ea5cc6c66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hdogg/thurstonReact/android/app/build/intermediates/exploded-aar/voting/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aebf6bdee7a11e3b156a4978e3b9ca8f042fbac1">
+        <dex dex="/home/hdogg/thurstonReact/android/app/build/intermediates/pre-dexed/debug/voting-react-native-maps-unspecified_c167c98cb5107bfc4eb3713b35f0f9b35feee8c4.jar" />
+    </item>
+
+</items>
