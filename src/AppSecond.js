@@ -35,7 +35,9 @@ const statistics = require('../imgs/statistics.png');
 const ballotReceived = require('../imgs/ballotReceived.png');
 const needBallot = require('../imgs/needBallot.png');
 const results = require('../imgs/results.png');
+const resultsCanvas = require('../imgs/results-canvassing.png');
 
+const eResultsCanvas = 'http://www.co.thurston.wa.us/auditor/Elections/2017elections/February/results_schedule.htm'
 const eReturnDistrict = 'http://www.co.thurston.wa.us/auditor/Elections/redirects/br-redirect.htm'
 const eRegistration = 'http://www.co.thurston.wa.us/auditor/Elections/election_dates.htm'
 const eVotersPamphlet = 'http://www.co.thurston.wa.us/auditor/elections/redirects/vp-redirect.htm'
@@ -73,7 +75,7 @@ class AppSecond extends Component {
       {title:'Votes', url: eNeedBallot , img: needBallot , title: 'Need a Ballot'  },
 
       {title:'Votes', url: eResults, img: results, title: 'Results' },
-
+      {title:'Votes', url: eResultsCanvas, img: resultsCanvas, title: 'Canvassing Results' },
       {title:'Votes', url: eStatistics , img: statistics , title: 'Statistics'},
 
       {title:'Votes', url: eReturnDistrict, img: returnDistrict, title: 'Returns by District' },

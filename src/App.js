@@ -35,6 +35,7 @@ const rockTheVote = require('../imgs/rockTheVote.png');
 const military = require('../imgs/military.png');
 const accessible = require('../imgs/accessible.png');
 const ballotReceived = require('../imgs/ballotReceived.png');
+const update = require('../imgs/update-cancel-reg.png');
 
 // const rockTheVote = require('../imgs/rockTheVote.png');
 // const rockTheVote = require('../imgs/rockTheVote.png');
@@ -55,6 +56,7 @@ const eDistElect = 'http://www.co.thurston.wa.us/electiondatalookup/default.aspx
 const eMaps = 'http://www.co.thurston.wa.us/auditor/Elections/precinct_maps/maps.htm'
 const eCspan = 'http://www.c-span.org/series/?campaign2016&nav=candidates'
 const eRockTheVote = 'http://www.rockthevote.com/get-informed/elections/'
+const eUpdate = 'http://www.co.thurston.wa.us/auditor/Elections/voter_reg/update.htm'
 
 const eMilitary = 'https://thurstoncounty.everyonecounts.com/page/557/1075'
 const eAccessible = 'http://www.co.thurston.wa.us/auditor/Elections/VAAC/accessible_current_election.htm'
@@ -91,6 +93,7 @@ class App extends Component {
 
       {title:'Votes', url: eCspan, img: cspan, title: 'C-SPAN' },
       {title:'Votes', url: eRockTheVote, img: rockTheVote, title: 'Rock To Vote' },
+      {title:'Votes', url: eUpdate, img: update, title: 'Update or Cancel Registration'}
 
       // {title:'Votes', url: eMilitary, img: military, title: 'Election Results' },
       // {title:'Votes', url: eAccessible, img: accessible, title: 'Election Results' },
