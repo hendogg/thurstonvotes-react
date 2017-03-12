@@ -5,7 +5,7 @@
  */
 
 import React, {Component} from 'react';
-import {AppRegistry, StyleSheet, Text, View, Dimensions, TouchableOpacity, Image} from 'react-native';
+import {AppRegistry, StyleSheet, ScrollView, Text, View, Dimensions, TouchableOpacity, Image} from 'react-native';
 var {height, width} = Dimensions.get('window');
 import MapView from 'react-native-maps';
 import LocationButton from './LocationButton.js';
@@ -74,11 +74,13 @@ export default class Maps extends Component {
         </MapView>
 
            <View style={styles.containerInner}>
+	   <ScrollView>
           {this.state.markers.map((marker, i) => (
             <LocationButton key={i}
               moveMaptoLocation={this.moveMaptoLocation}
               marker={marker}/>
           ))}
+	  </ScrollView>
           </View>
 
       </View>
