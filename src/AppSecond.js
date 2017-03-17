@@ -60,12 +60,14 @@ const face = require('../imgs/social/facebook.png');
 const tweet = require('../imgs/social/twitter.png');
 const insta = require('../imgs/social/instagram.png');
 const utube = require('../imgs/social/youtube.png');
+const site = require('../imgs/social/tc.png');
 
 // TabBar URLs
 const eFace = 'https://www.facebook.com/Thurston-County-Auditors-Office-328306377190679/'
 const eTweet = 'https://twitter.com/TCAuditor'
 const eInsta = 'https://www.instagram.com/thurstonauditor/'
 const eUtube = 'https://www.youtube.com/channel/UCxORZbqlmF1kADpJAu9EIOg'
+const eSite = 'http://www.co.thurston.wa.us/auditor/'
 
 
 
@@ -87,7 +89,21 @@ class AppSecond extends Component {
 
 
     ],
+
   };
+
+state2 = {
+    links: [
+      {title:'Votes', url: eFace, img: face, title: 'Facebook' },
+      {title:'Votes', url: eInsta, img: insta, title: 'Instagram' },
+      {title:'Votes', url: eTweet , img: tweet, title: 'Twitter'  },
+      {title:'Votes', url: eUtube , img: utube, title: 'Youtube'  },
+      {title:'Votes', url: eSite, img: site, title: 'Visit Our Website!' },
+      
+    ],
+
+  };
+
 
 // function to be called later
   onPressButton(url) {
@@ -115,6 +131,20 @@ class AppSecond extends Component {
     );
   }
 
+  renderSocialButton = (btn, index) => {
+    return (   
+      <TouchableOpacity
+        // each item in the object from the state has an 'index'
+        key={index}
+        // btn.url: just get the url from the state
+        // btn.title: just get the title from the state
+        onPress={() => this.onPressButton(btn.url)}
+        style={styles.itemSocial}>
+        <Image source={btn.img} style={styles.imageSocial}></Image>
+        <Text style={styles.text}>{btn.title}</Text>
+      </TouchableOpacity>
+    );
+  }
 
 // on website
 // style={{marginTop: 20}}
@@ -136,12 +166,16 @@ class AppSecond extends Component {
             <Image source={require('../imgs/bg/header-current-election-crop.png')}
                  style={styles.cover} />
           </View> 
-          <View style={styles.box3}>         
+
+          <View style={[styles.boxx, {justifyContent:'space-around'}]}>
+						{this.state2.links.map(this.renderSocialButton)}
+	  </View>
+         
+	<View style={styles.box3}>         
             <View style={[styles.container, {flexWrap:'wrap'}]}>  
                 {this.state.links.map(this.renderButton)}
             </View> 
           </View>
-         
 
       </View>
     );
@@ -225,6 +259,31 @@ const styles = StyleSheet.create (
     width: 20,
     height: 20,
   },
+boxx:
+  {
+    flex: 4,
+    flexDirection: "row",
+    backgroundColor: 'blue',
+ //   alignItems: "stretch",
+    justifyContent: 'space-around',
+
+
+},
+imageSocial: {
+    width: 30 , 
+    height: 30 ,
+    //alignSelf: 'auto',
+  },
+    itemSocial: {
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 15,
+    marginRight: 15,
+    width: 30,
+    height: 30,
+    alignSelf: 'auto',
+    //justifyContent: 'space-between'
+    },
 });
 
 // newly added for tabbar navigartions

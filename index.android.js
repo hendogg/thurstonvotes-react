@@ -25,7 +25,6 @@ const TabNav = TabNavigator({
   'Home': { screen: App },
   'Current Election': { screen: AppSecond },
   'Ballot Drop Sites': { screen: Maps },
-  'Social': { screen: Social },
 })
 
 navigationOptions = {
