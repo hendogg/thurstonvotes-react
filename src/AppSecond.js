@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { 
   StyleSheet,
   Text,
-  Button,
+//  Button,
   View,
   Image,
   Dimensions,
@@ -14,7 +14,10 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { StackNavigator } from 'react-navigation';
-import Home from './Home'
+import Home from './Home';
+import {
+  Button
+} from 'react-native-elements';
 
 // Get the width of the screen, use it for width and height to make a square
 var { width} = Dimensions.get('window');
@@ -214,6 +217,10 @@ const styles = StyleSheet.create (
       height: width + 50,
       //paddingTop: 10,
   },
+  socialStyles: {
+    width: width,
+    height: 20
+    },
   tabIcon: {
     width: 20,
     height: 20,

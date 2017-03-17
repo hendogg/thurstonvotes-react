@@ -21,14 +21,26 @@ class voting extends Component {
 
 
 // navigation object
-const SimpleApp = TabNavigator({
+const TabNav = TabNavigator({
   'Home': { screen: App },
   'Current Election': { screen: AppSecond },
   'Ballot Drop Sites': { screen: Maps },
   'Social': { screen: Social },
 })
 
-AppRegistry.registerComponent('voting', () => SimpleApp);
+navigationOptions = {
+  tabBar: {
+      icon: () => (
+        <Image
+          source={require('./imgs/social/tc.png')}
+          style={[styles.tabIcon, {tintColor: 'FFFFFF'}]}
+        />
+  
+    )
+  }
+};
+
+AppRegistry.registerComponent('voting', () => TabNav);
 
 
 
