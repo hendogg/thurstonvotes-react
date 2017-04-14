@@ -286,7 +286,7 @@ imageSocial: {
     },
 });
 
-// newly added for tabbar navigartions
+// used for tabbar navigations
 AppSecond.navigationOptions = {
   tabBar: {
       icon: () => (

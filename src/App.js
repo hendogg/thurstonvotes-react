@@ -40,19 +40,11 @@ const accessible = require('../imgs/accessible.png');
 const ballotReceived = require('../imgs/ballotReceived.png');
 const update = require('../imgs/update-cancel-reg.png');
 
-// const rockTheVote = require('../imgs/rockTheVote.png');
-// const rockTheVote = require('../imgs/rockTheVote.png');
-// const rockTheVote = require('../imgs/rockTheVote.png');
-
-
-
 // links as variabe for clarity
 const eReturnDistrict = 'http://www.co.thurston.wa.us/auditor/Elections/redirects/br-redirect.htm'
 const eMyVote = 'https://wei.sos.wa.gov/agency/osos/en/voters/Pages/register_to_vote.aspx'
 const eResults = 'http://www.co.thurston.wa.us/auditor/Elections/history/archive.htm'
-// create a page to display all the other link and logos
 const eCurrentElection = 'http://www.co.thurston.wa.us/auditor/Elections/electns.htm'
-// This link is for map view. I'll work on it later
 const eNeedBallot= 'http://www.co.thurston.wa.us/auditor/elections/voter_reg/ballot.htm'
 const eElectionDates = 'http://www.co.thurston.wa.us/auditor/Elections/election_dates.htm'
 const eDistElect = 'http://www.co.thurston.wa.us/electiondatalookup/default.aspx'
@@ -64,6 +56,7 @@ const eUpdate = 'http://www.co.thurston.wa.us/auditor/Elections/voter_reg/update
 const eMilitary = 'https://thurstoncounty.everyonecounts.com/page/557/1075'
 const eAccessible = 'http://www.co.thurston.wa.us/auditor/Elections/VAAC/accessible_current_election.htm'
 const eBallotReceived = 'https://weiapplets.sos.wa.gov/MyVote/#/login'
+
 // to display pdf, this bypass security set up of iOS
 const gDoc = 'http://docs.google.com/gview?embedded=true&url='
 
@@ -100,14 +93,10 @@ class App extends Component {
       {title:'Votes', url: eRockTheVote, img: rockTheVote, title: 'Rock To Vote' },
       {title:'Votes', url: eUpdate, img: update, title: 'Update or Cancel Registration'}
 
-
-
-      // {title:'Votes', url: eMilitary, img: military, title: 'Election Results' },
-      // {title:'Votes', url: eAccessible, img: accessible, title: 'Election Results' },
-      // {title:'Votes', url: eBallotReceived, img: ballotReceived, title: 'Election Results' },
     ],
   };
-//Init the social media icons and links
+
+//Initialize the social media icons and links
 state2 = {
     links: [
       {title:'Votes', url: eFace, img: face, title: 'Facebook' },
